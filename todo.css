@@ -1,20 +1,21 @@
     #todo
 {
-    background-color: whitesmoke;
+
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 15%;
     font-family: Arial;
+    width: 45%;
+    height: 50%;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin: 5%;
+    border-radius: 5%;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    background-color: white;
 }
-   /* {
-margin:auto;
-max-width:50%;
-text-align: center;
-bottom: 15px;
-margin-left: 30%;   
-background-color:whitesmoke;
-border:20px;
-}*/
 
 #cle{
   float: right;
@@ -23,32 +24,18 @@ border:20px;
     float: right;
     color: #959494 ;
 }
-#Complete ,#mid ,#footer{
+#task ,#mid ,#footer{
     background-color: white;
 }
-#inp {
-    width: 100%;
-    
-}
-/*#boxtodo{
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 1%;
-  }*/
-
 #inp{
-    text-rendering: auto;
     color: initial;
     letter-spacing: normal;
     word-spacing: normal;
-    text-transform: none;
     text-indent: 0px;
     text-shadow: none;
     display: inline-block;
     text-align: start;
-    -webkit-appearance: textfield;
-    background-color: white;
-    -webkit-rtl-ordering: logical;
+    background-color:#E3E2E2;
     cursor: text;
     margin: 0em;
     font: 400 13.3333px Arial;
@@ -57,9 +44,8 @@ border:20px;
     border-style: inset;
     border-color: initial;
     border-image: initial;
-    position: relative;
     margin: 0;
-    width: 92%;
+    width:100%;
     font-size: 24px;
     font-weight: bold;
     font-family: inherit;
@@ -68,29 +54,61 @@ border:20px;
     border: 0;
     color: inherit;
     box-sizing: border-box;
+    padding: 16px 60px 16px 60px;
+    border-radius: 10px;
+    border: none;
+    background: #efefef;
+ 
 }
-
-#fullpage{
+#fullpage {
     background-color: #E3E2E2;
 }
-#Complete{
+#task{
     color:#959494 ; 
 }
 #footer{
     color: #959494 ;
 }
 
-#icon{
-    content: '';
-    display: block;
+.boxtodo{
+    margin-left: 20px;
+}
+.add{
+   float: left;
+}
+#zero , #le{
+    float: left;
+    padding: 2px;
+}
+#boxtodo{
     position: absolute;
-    top: 13px;
-    left: 13px;
-    width: 65px;
-    height: 65px;
-    z-index: 1;
-    opacity: 1;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…Y5LS45OTItLjk0MS0uNjk2LjY5NyAxLjY4OCAxLjYzNyAyLjgxMi0yLjg2NnoiLz48L3N2Zz4=);
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-left: 1%;
+    margin-top: 18px;
+
+}
+#add{
+    position: absolute;
+    margin: 18px -40px;
+}
+.done{
+    float: left;
+    margin-top: -9px;
+    padding: 5px;
+}
+.com{
+    float: left;
+}
+#radio , #do {
+    float: left;
+}
+#task{
+    margin-top: 10px;
+    cursor: pointer;
+}
+#clear {
+    float: right ;
+
+}
+#footer {
+    margin-top: 150px;
 }

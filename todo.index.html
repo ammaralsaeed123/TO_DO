@@ -4,28 +4,31 @@
     </head>
     <body>
          <div class="todo" id="todo">
-              <img src="download.svg" alt="" srcset=""id="boxtodo">
+           <div class="listbox" id="listbox">
+              <img src="download.svg"id="boxtodo">
               <input type="text" placeholder="Type your todo list" name="list todo"id="inp">
-              <img src="add_circle_outline-24px.svg" alt="" srcset="">
-            <!--form class="example" action="/action_page.php" style="margin:auto;max-width:300px"!-->
-            <!--button type="submit"><i class="fa fa-search"></i></button!-->
-              </form>
-              <div id=Complete>
-             <img src="done_all-24px.svg" alt="" srcset="">
-                <a> Complete all tasks</a>
+              <img src="add_circle_outline-24px.svg"id="add">
+            </div>
+           <div class="task" id="task">  
+                <img src="done_all-24px.svg" id="done" class="done">
+                <a class="com" id="com"> Complete all tasks</a>
                 <a id="cle"> Clear Completed </a>
-                </div>
+              </div>
+              <br>
+              <hr>
                  <div class="mid" id="mid">
-                   <img src="radio_button_unchecked-24px.svg" alt="" srcset=""> 
-                     do something
-                     <img src="clear-24px.svg" alt="" srcset=""><hr>
+                   <img src="radio_button_unchecked-24px.svg" class="radio" id="radio"> 
+                    <a class="do" id="do"> do something</a>
+                     <img src="clear-24px.svg" class="clear" id="clear">
                   </div>
+                  <br>
+                  <hr class="line2">
                    <div class="footer" id="footer">
-                         <a> 0task left </a>
+                         <a href="" id="zero"><span> 0</span></a>
+                         <a id="le">left</a>
                          <a id="all">All
                           Uncomplete
                         Completed</a>
-
                    </div>
               
          </div>
