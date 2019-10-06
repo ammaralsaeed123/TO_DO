@@ -1,27 +1,35 @@
-<html>
+<html id="fullpage">
     <head>
+            <link rel="stylesheet" href="todo.css">
     </head>
     <body>
-     <div>
-         <div class="header">
-            <img src="playlist_add_check-24px.svg" alt="" srcset="">
-             Type your todo list
+         <div class="todo" id="todo">
+              <img src="download.svg" alt="" srcset=""id="boxtodo">
+              <input type="text" placeholder="Type your todo list" name="list todo"id="inp">
+              <img src="add_circle_outline-24px.svg" alt="" srcset="">
+            <!--form class="example" action="/action_page.php" style="margin:auto;max-width:300px"!-->
+            <!--button type="submit"><i class="fa fa-search"></i></button!-->
+              </form>
+              <div id=Complete>
              <img src="done_all-24px.svg" alt="" srcset="">
-             Complete all tasks
-             Clear complete<hr>
-                 <div class="mid">
-                   <img src="radio_button_unchecked-24px.svg" alt="" srcset="">   do something<hr>
+                <a> Complete all tasks</a>
+                <a id="cle"> Clear Completed </a>
+                </div>
+                 <div class="mid" id="mid">
+                   <img src="radio_button_unchecked-24px.svg" alt="" srcset=""> 
+                     do something
+                     <img src="clear-24px.svg" alt="" srcset=""><hr>
                   </div>
-                   <div class="footer">
-                       0task left 
-                           All
-                        Uncomplete
-                        Completed
+                   <div class="footer" id="footer">
+                         <a> 0task left </a>
+                         <a id="all">All
+                          Uncomplete
+                        Completed</a>
 
                    </div>
               
          </div>
 
-     </div>
+     
     </body>
 </html>
