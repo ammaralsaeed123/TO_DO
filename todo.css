@@ -1,20 +1,21 @@
     #todo
 {
 
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 15%;
+    
+   
     font-family: Arial;
     width: 45%;
     height: 50%;
-    padding-top: 20px;
-    margin-top: 20px;
-    margin: 5%;
+   
+    
+    margin-left: 25%;
+    margin-top: 5%;
     border-radius: 5%;
     text-align: center;
     padding: 15px;
     position: absolute;
     background-color: white;
+    float: right;
 }
 
 #cle{
@@ -23,6 +24,7 @@
 #all{
     float: right;
     color: #959494 ;
+    cursor: pointer;
 }
 #task ,#mid ,#footer{
     background-color: white;
@@ -58,7 +60,10 @@
     border-radius: 10px;
     border: none;
     background: #efefef;
- 
+    
+}
+#inp:focus{
+background-color: #959494;
 }
 #fullpage {
     background-color: #E3E2E2;
