@@ -1,13 +1,8 @@
     #todo
 {
-
-    
-   
     font-family: Arial;
     width: 45%;
     height: 50%;
-   
-    
     margin-left: 25%;
     margin-top: 5%;
     border-radius: 5%;
@@ -26,8 +21,12 @@
     color: #959494 ;
     cursor: pointer;
 }
-#task ,#mid ,#footer{
+#task ,#footer{
     background-color: white;
+    
+}
+#mid {
+    margin: 5px;
 }
 #inp{
     color: initial;
@@ -73,6 +72,7 @@ background-color: #959494;
 }
 #footer{
     color: #959494 ;
+    margin-top: 5px;
 }
 
 .boxtodo{
@@ -115,5 +115,26 @@ background-color: #959494;
 
 }
 #footer {
-    margin-top: 150px;
+    margin-top: 125px;
+}
+#radio2{
+    float:left;
+    margin-left:-23px;
+
+
+}
+#do2{
+    float: left;
+    
+}
+#clear2{
+    float: right;
+    margin-right: -24px;
+    
+}
+#mid2{
+    margin: 5px;
+}
+.line {
+    text-decoration: line-through;
 }
